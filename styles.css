@@ -1,0 +1,33 @@
+/* 全屏容器 */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: black; /* 纯黑背景 */
+}
+
+/* 让图片始终铺满整个页面 */
+#fullscreen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    width: 100vw; /* 让图片宽度铺满 */
+    height: 100vh; /* 让图片高度铺满 */
+    object-fit: cover; /* 让图片裁剪适应整个页面 */
+    object-position: center; /* 图片居中显示 */
+    cursor: pointer; /* 鼠标变手势，提示可点击 */
+}
+
+/* 隐藏音频播放器 */
+audio {
+    display: none;
+}
