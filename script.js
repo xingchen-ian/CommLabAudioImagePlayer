@@ -15,33 +15,27 @@ const images = [
     'assets/images/image_14.png',
     'assets/images/image_15.png',
     'assets/images/image_16.png',
-    'assets/images/image_17.png',
-    'assets/images/image_18.png',
-    'assets/images/image_19.png',
-    'assets/images/image_20.png'
+    'assets/images/image_17.png'
 ];
 
 const songs = [
-    'assets/music/music_01.mp3',
-    'assets/music/music_02.mp3',
+    'assets/music/music_01.wav',
+    'assets/music/music_02.wav',
     'assets/music/music_03.mp3',
-    'assets/music/music_04.mp3',
-    'assets/music/music_05.mp3',
-    'assets/music/music_06.mp3',
-    'assets/music/music_07.mp3',
-    'assets/music/music_08.mp3',
-    'assets/music/music_09.mp3',
-    'assets/music/music_10.mp3',
-    'assets/music/music_11.mp3',
-    'assets/music/music_12.mp3',
-    'assets/music/music_13.mp3',
-    'assets/music/music_14.mp3',
-    'assets/music/music_15.mp3',
-    'assets/music/music_16.mp3',
-    'assets/music/music_17.mp3',
-    'assets/music/music_18.mp3',
-    'assets/music/music_19.mp3',
-    'assets/music/music_20.mp3'
+    'assets/music/music_04.wav',
+    'assets/music/music_05.wav',
+    'assets/music/music_06.wav',
+    'assets/music/music_07.wav',
+    'assets/music/music_08.wav',
+    'assets/music/music_09.wav',
+    'assets/music/music_10.wav',
+    'assets/music/music_11.wav',
+    'assets/music/music_12.wav',
+    'assets/music/music_13.wav',
+    'assets/music/music_14.wav',
+    'assets/music/music_15.wav',
+    'assets/music/music_16.wav',
+    'assets/music/music_17.aac'
 ];
 
 let currentIndex = 0;
